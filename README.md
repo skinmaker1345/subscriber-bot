@@ -9,9 +9,17 @@
 - 알림을 보낼 때 특정 역할을 멘션할 수 있는 접두사 기능
 
 ## 🎞️ 백문이불여일견
+![](https://cdn.discordapp.com/attachments/894978067699757068/926104609074872360/unknown.png)
+![](https://cdn.discordapp.com/attachments/894978067699757068/926104114549628988/unknown.png)  
+![](https://cdn.discordapp.com/attachments/894978067699757068/926103606069972992/unknown.png)  
 ![](https://cdn.discordapp.com/attachments/894978067699757068/924313045122056242/Subscriber-Demo-3.0-Search-Youtube.gif)  
- 
-![](https://cdn.discordapp.com/attachments/894978067699757068/924331731094491187/Subscriber-Demo-3.0-Search-Twitch.gif)
+
+## 설정
+구독한 내용에 대해 설정을 변경할 수 있습니다.
+
+### ⌨️ 명령어 사용법
+- 설정 메뉴를 열기 위해 채팅 채널에서 명령어를 사용합니다.
+- ``/settings``
 
 ## 유튜브 구독
 
