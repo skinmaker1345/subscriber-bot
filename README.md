@@ -1,46 +1,30 @@
-# 구독봇
-유튜브의 채널을 구독하거나 트위치 채널을 팔로우하고  디스코드 채널에 알림을 보낼 수 있는 봇입니다.
-### Koreanbots
-https://koreanbots.dev/bots/878240313188175922
+# Subscriber
+Subscriber sends Youtube / Twitch notifications to a Discord channel.
 
-## 🛠️ 기능
+## 🛠️ Features
+- Detect YouTube Video Uploads
+- Detect YouTube Live Streams
+- Detect Twitch Live Strams
+- Customize prefix which you can mention specific roles 
+- Customize Notification Messages
 
-- 유튜브 업로드 감지 기능
-- 유튜브 라이브 감지 기능
-- 트위치 라이브 감지 기능
-- 알림을 보낼 때 특정 역할을 멘션할 수 있는 접두사 기능
-- 직접 알림 메시지를 작성하는 커스텀 메시지 기능
+## Subscribe to YouTube Channel
 
-## 메시지 설정
-구독 / 팔로우한 채널의 알림을 보낼 때 전송되는 메시지를 직접 수정할 수 있습니다.
+### ⌨️ How to Use
 
-### ⌨️ 명령어 사용법
-- ``/message``로 메시지를 변경할 수 있습니다.
-- 자세한 도움말은 [여기](https://github.com/skinmaker1345/subscriber-bot/blob/main/edit_messages.md)에서 확인할 수 있습니다.
+#### Subscribe
 
-## 설정
-구독한 내용에 대해 설정을 변경할 수 있습니다.
+- Use the command in which you want to get notifications.
+- ``/subscribe [CHANNEL]``
+- Example: ``/subscribe 1theK``
 
-### ⌨️ 명령어 사용법
-- 설정 메뉴를 열기 위해 채팅 채널에서 명령어를 사용합니다.
-- ``/settings``
+#### Unsubscribe
 
-## 유튜브 구독
-
-### ⌨️ 명령어 사용법
-
-#### 채널 구독
-
-- 유튜브 알림을 받고 싶은 채팅 채널에서 명령어를 사용합니다.
-- ``/subscribe [유튜브 채널]``
-- 예시: ``/subscribe 1theK``
-
-#### 구독 취소
-
-- 구독을 취소하고 싶을때는 ``/unsubscribe [유튜브 채널]`` 명령어를 사용할 수 있습니다.
+- Use the command in which you don't want to get notifications anymore.
+- ``/unsubscribe [CHANNEL]``
 - 예시: ``/unsubscribe 1theK``
 
-#### 접두사 설정
+#### Set Prefix
 
 -  구독한 채널에서 영상이 업로드 되었을 때 맨 앞에 나올 메시지를 추가할 수 있습니다.  (역할을 핑하고 싶을때, 사용하면 좋겠죠?)
 -  접두사를 설정하려면 ``/prefix youtube [유튜브 채널]``을 사용하세요.
@@ -78,3 +62,16 @@ https://koreanbots.dev/bots/878240313188175922
 -  트위치 채널을 검색하고 해당 채널에 대해 원하는 기능을 바로 실행할 수 있습니다.
 -  채널을 검색하려면 ``/search twitch [트위치 채널]``을 사용하세요.
 -  예시: ``/search twitch zilioner``
+
+## Set Messages
+You can set your own messages which will be sent when notify.
+
+### ⌨️ How to Use
+- Type ``/message`` to set messages.
+- You can see the guide [here](https://github.com/skinmaker1345/subscriber-bot/blob/en/edit_messages.md).
+
+## Settings
+You can adjust settings for specific channel.
+
+### ⌨️ How to Use
+- Type ``/settings`` to adjust settings.
