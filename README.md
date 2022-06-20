@@ -18,12 +18,12 @@ https://koreanbots.dev/bots/878240313188175922
 - ``/message``로 메시지를 변경할 수 있습니다.
 - 자세한 도움말은 [여기](https://github.com/skinmaker1345/subscriber-bot/blob/main/edit_messages.md)에서 확인할 수 있습니다.
 
-## 설정
-구독한 내용에 대해 설정을 변경할 수 있습니다.
+## 커스텀 프로필 설정
+구독 / 팔로우한 채널의 알림을 보낼 때 사용되는 프로필 사진과 이름을 설정할 수 있습니다.
 
 ### ⌨️ 명령어 사용법
 - 설정 메뉴를 열기 위해 채팅 채널에서 명령어를 사용합니다.
-- ``/settings``
+- ``/profile``
 
 ## 유튜브 구독
 
