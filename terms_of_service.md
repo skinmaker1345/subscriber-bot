@@ -1,19 +1,20 @@
-# 서비스 이용 약관(구독봇)
-## 제 1조(목적)
-- 본 약관은 구독봇(이하 '봇'이라 함)이 제공하는 구독, 또는 팔로우에 대한 모든 서비스를 이용함에 있어 이용자의 사용도를 규정함을 목적으로 합니다.
-## 제 2조(용어의 정의)
-- 구독봇이 제공하는 '서비스'란 Discord(디스코드)에 가입한 유저가 디스코드의 플랫폼 내에서 사용할 수 있는 모든 기능 및 서비스를 의미합니다.
+# Terms of Service
+## 1. Purpose
+- This term regulates the usage of Subscriber(or 'bot')'s all services.
+## 2. Terms
+- The 'service' means all the feature that the bot provides to users within Discord.
 
-## 제 3조(사용 규정)
-- 구독봇은 [Discord의 이용 약관](https://discord.com/terms)을 준수하며 사용해야 합니다.
-- 구독봇의 취약점을 공략, 악용하는 행위는 모두 금지됩니다.
+## 3. Regulations
+- The bot needs to be used under [Discord's terms](https://discord.com/terms).
+- All actions exploting the bot's vulnerabilities are prohibited.
 
-## 제 4조(개인 정보)
-- 구독봇은 사용자의 개인 정보를 수집합니다.
-### 수집하는 개인 정보
-|개인 정보|설명|
+## 4. Personal Informations
+- The bot **DO** collect personal informations to run the service properly.
+### Information that is collected
+|Information|Description|
 |-|-|
-|사용자의 ID(Snowflake)|모종의 이유로 서비스에 장애가 생겼을 때 사용자에게 직접 고지(DM)하기 위함|
-### 개인 정보의 파기
-- 구독봇에 저장된 개인 정보는 사용자가 서비스를 해지하기 전까지 영구히 보관됩니다.
-- 서비스가 해지된 직후 사용자와 관련된 모든 개인 정보는 파기됩니다.
+|User ID(Snowflake)|User IDs are stored when the user issues new subscription / follows.|
+
+### Disposal of Information
+- The bot will store information permenantly until the user discards the service.
+- As the user discards the service by unsubscribe or unfollow, All informations stored will be disposed.
