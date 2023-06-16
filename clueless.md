@@ -13,5 +13,5 @@
 |Type|Example|
 |-------|-|
 |Channel name|Ninja|
-|channel login id|ninja|
-|채널 URL|https://www.twitch.tv/ninja|
+|Channel login ID|ninja|
+|Channel URL|https://www.twitch.tv/ninja|
